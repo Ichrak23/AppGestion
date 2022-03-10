@@ -1,0 +1,7 @@
+{
+  "name": "EliseMobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
