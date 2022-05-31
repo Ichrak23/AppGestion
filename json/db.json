@@ -1,0 +1,1115 @@
+{ "currentinfo":{
+  "id": "DEFAULT_GRID",
+  "mailDirection": "1",
+  "mailType": "Document interne",
+  "label": "Complément",
+  "reference": null,
+  "subject": "Nouveau document de type interne",
+  "creationDate": "2022-04-14T14:33:49",
+  "modificationDate": "2022-04-15T10:09:15+01:00",
+  "mailDate": "2022-04-14T00:00:00",
+  "sendingDate": null,
+  "sentBy": null,
+  "createdBy": "AdminGED",
+  "creatorUid": "63a97152b3fbbb449b5756a6e3273b0d",
+  "modifiedBy": "AdminGED",
+  "reopningDate": null,
+  "reopenedBy": null,
+  "reopeningReason": null,
+  "direction": 1,
+  "formattedMission": "Neoledge"
+},
+"doc_info":{
+  "name":"pdf-exemplepdf",
+   "type":"PDF v1.0"
+
+  },
+   "user": {
+  "id": "d71ac14b1b2cd144b712102c0f4a6e59",
+  "displayName": "AdminGED",
+  "login": "AdminGED",
+  "cn": "AdminGED",
+  "mail": "adminged@mail.local",
+  "instanceName": "GED",
+  "preferences": null,
+  "preferredLanguage": "fr-FR",
+  "policies": {
+    "isAllowedToChangePortal": true,
+    "isAllowedToManageAbsence": true,
+    "hasDefaultLoginToModernPortal": true,
+    "canAccessToGrc": true,
+    "canAccessToGeneralAdministration": true,
+    "canAccessToContacts": true,
+    "canAccessToWorkflowAdministration": true,
+    "canAccessToSeparatorPrint": true,
+    "canAccessToMaintenance": true,
+    "canAccessToDocumentGeneration": true,
+    "canManageConfidentialFile": false,
+    "canAccessToDistribute": true,
+    "canShowMailHistory": true,
+    "canShowHistory": true,
+    "canAccessAdminGuide": true,
+    "canAddPersonalDashboard": true,
+    "canShowPreparationProcess": false,
+    "canManageWorkspaces": true,
+    "deleteTaskParameter": 1,
+    "updateTaskParameter": 1,
+    "canPermanentlyDeleteFiles": true,
+    "forceFormAuthentication": true,
+    "isAllowedToModifyAvatar": true,
+    "isAllowedToRequestTask": true,
+    "isAllowedToReserveDocument": true,
+    "isAllowedToPrintLabel": true,
+    "isAllowedToPrintDocument": true,
+    "isAllowedToLinkDocumentCreationWidgetToPigeonhole": true,
+    "isAllowedToRequestTaskAsService": false,
+    "isAllowedToAccessActivities": true,
+    "isAllowedToManageTasks": true,
+    "printBarCodeDateType": 0,
+    "notifyContributorOption": 4,
+    "isAllowedClosingLinkedOutgoingDocuments": 3,
+    "deactivateTransferredTask": 4,
+    "canAccessAdminAutomatedActions": true,
+    "canAccessFlowchartAllServices": true,
+    "canAccessFlowchartUserSubServices": true,
+    "canAccessFlowchartAllUsers": true,
+    "canAccessFlowchartUserServices": false
+  },
+  "eliseUrl": "https://elise6-pfe.elisedemo.com/elise",
+  "baseUrl": "https://elise6-pfe.elisedemo.com",
+  "documentationUrl": "https://elise6-pfe.elisedemo.com/elise/docs/userguide/{locale}/default.htm",
+  "isCf4InDebugMode": true,
+  "licenses": [
+    {
+      "license": {
+        "application": "ELISE",
+        "instance": "ged",
+        "availableLicenses": 1000,
+        "usedLicenses": 11,
+        "description": "Licences nommées pour l'application \"Elise\""
+      },
+      "isActive": true
+    },
+    {
+      "license": {
+        "application": "ELISEFLOW",
+        "instance": "ged",
+        "availableLicenses": 1000,
+        "usedLicenses": 1,
+        "description": "Licences nommées pour l'application \"Elise FLOW\""
+      },
+      "isActive": true
+    },
+    {
+      "license": {
+        "application": "ELISEFOROUTLOOK",
+        "instance": "ged",
+        "availableLicenses": 1000,
+        "usedLicenses": 1,
+        "description": "Licences nommées pour le complément Microsoft Outlook"
+      },
+      "isActive": true
+    }
+  ],
+  "isAdministrator": true,
+  "intranetAuthenticationMode": "FORM",
+  "services": [
+    {
+      "id": "LEXICON_00000000",
+      "isDefault": true,
+      "grade": 0,
+      "initials": "",
+      "identificationPath": "ENT1/GED",
+      "isOrganizationUnit": false,
+      "uid": "LEXICON_00000000",
+      "label": "Elise City",
+      "type": 1,
+      "email": null,
+      "isExternal": false,
+      "delegationId": null,
+      "isUnknown": false,
+      "absenceStartDate": null,
+      "absenceEndDate": null,
+      "isAutomaton": false
+    },
+    {
+      "id": "LEXICON_00000001",
+      "isDefault": false,
+      "grade": 0,
+      "initials": "",
+      "identificationPath": "ENT1/Courrier",
+      "isOrganizationUnit": false,
+      "uid": "LEXICON_00000001",
+      "label": "Service courrier centralisé",
+      "type": 1,
+      "email": null,
+      "isExternal": false,
+      "delegationId": null,
+      "isUnknown": false,
+      "absenceStartDate": null,
+      "absenceEndDate": null,
+      "isAutomaton": false
+    }
+  ],
+  "feature": {
+    "takeChargeOf": true,
+    "markAsSent": true,
+    "allTaskAreValidationStep": true,
+    "newTaskRequest": true,
+    "isProcessingWorkflowEnabledForOutMails": false,
+    "taskInProgress": true,
+    "diffusion": true,
+    "interEntitySecureMessage": true,
+    "userDocumentTemplate": false,
+    "elisePrintLabel": true,
+    "otherDiffusion": true,
+    "localDocumentation": true,
+    "historyDetails": true,
+    "entityManagement": true
+  },
+  "entityId": "LEXICON_00000000",
+  "rootServiceId": "LEXICON_00000000",
+  "documentExportLimit": 200
+},
+"version" :{
+  "build": "8070",
+  "buildLabel": "Elise 6 2022-R1",
+  "patchVersion": 0,
+  "version": "6.0",
+  "donnéestechniques":"Identifiant LDAP Local"
+  },
+  "fields_Generales_titre": 
+    {"id": 1,
+      "setId": null,
+      
+      "label": "Titre",
+      "description": "Titre",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": true,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+    },
+
+    "fields_Generales_reference": {
+      "setId": null,
+      "id": "STD_REFERENCE",
+      "label": "Référence",
+      "description": "Référence",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": false,
+      "isAlwaysVisible": false
+},
+      
+"fields_Generales_type": {
+      "setId": null,
+      "id": "STD_TYPE",
+      "label": "Type",
+      "description": "Type",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": true,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+    },
+    "fields_Generales_contact": {
+      "setId": null,
+      "id": "STD_CONTACT",
+      "label": "Contact",
+      "description": "Contact",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": true,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+    },
+    "fields_Generales_date": {
+      "setId": null,
+      "id": "STD_DATE",
+      "label": "Date",
+      "description": "Date",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": false,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+    },
+    "fields_Generales_importance": {
+      "setId": null,
+      "id": "STD_PRIORITY",
+      "label": "Importance",
+      "description": "Importance",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": true,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+    },
+    "fields_Generales_confidentialite": {
+      "setId": null,
+      "id": "STD_CONFIDENTIALITY",
+      "label": "Confidentialité",
+      "description": "Confidentialité",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": true,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+},
+"fields_Generales_support": {
+      "setId": null,
+      "id": "STD_MEDIUM",
+      "label": "Support",
+      "description": "Support",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": true,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+      },
+     
+      "fields_Generales_signale": {
+      "setId": null,
+      "id": "STD_REPORTED",
+      "label": "Signalé",
+      "description": "Signalé",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": false,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+      },
+      "fields_Generales_description": {
+      "setId": null,
+      "id": "STD_DESCRIPTION",
+      "label": "Description",
+      "description": "Description",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": false,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+      },
+      "fields_Generales_commentaire": {
+      "setId": null,
+      "id": "STD_COMMENTARY",
+      "label": "Commentaire",
+      "description": "Commentaire",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": false,
+      "isAlwaysVisible": false,
+      "isReadOnly": false},
+  
+      "fields_Generales_recommande": {
+      "setId": null,
+      "id": "STD_REGISTERED",
+      "label": "Recommandé",
+      "description": "Recommandé",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": false,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+},
+"fields_Generales_date_ech": {
+      "setId": null,
+      "id": "STD_DUEPERIOD",
+      "label": "Date d'échéance",
+      "description": "Date d'échéance",
+      "fieldType": "standard",
+      "defaultValue": null,
+      "sortId": null,
+      "keyNumber": 0,
+      "isRequired": false,
+      "isAlwaysVisible": false,
+      "isReadOnly": false
+      },
+      
+     "fields_classement": [
+      {
+        "termLimit": 10,
+        "thesaurusId": "ELISE_CLASSEMENT_COURRIER",
+        "showFullPath": false,
+        "id": "CLASSEMENT",
+        "label": "Plan de classement",
+        "description": "Plan de classement",
+        "fieldType": "lexicon",
+        "defaultValue": null,
+        "sortId": null,
+        "keyNumber": 0,
+        "isRequired": false,
+        "isAlwaysVisible": false,
+        "isReadOnly": false
+        },
+      {
+        "termLimit": 1,
+        "thesaurusId": "ELISE_TABLEAU_GESTION",
+        "showFullPath": false,
+        "id": "GESTION",
+        "label": "Tableau de gestion",
+        "description": "Tableau de gestion",
+        "fieldType": "lexicon",
+        "defaultValue": null,
+        "sortId": null,
+        "keyNumber": 0,
+        "isRequired": false,
+        "isAlwaysVisible": false,
+        "isReadOnly": false
+        },
+        
+      {
+        "enumValues": null,
+        "id": "MOTSCLES",
+        "label": "Mots clés",
+        "description": "Mots clés",
+        "fieldType": "textarea",
+        "defaultValue": null,
+        "sortId": null,
+        "keyNumber": 0,
+        "isRequired": false,
+        "isAlwaysVisible": false,
+        "isReadOnly": false
+      }
+    ],
+  "otherTodoTasks": [
+    {
+      "id": 2,
+      "active": true,
+      "processType": 1,
+      "state": 0,
+      "requestDate": "2022-04-15T10:08:59",
+      "requestBy": {
+        "mainService": {
+          "initials": "",
+          "identificationPath": "",
+          "isOrganizationUnit": false,
+          "uid": "LEXICON_00000000",
+          "label": "Direction générale",
+          "type": 1,
+          "email": "test2@mail.local",
+          "isExternal": false,
+          "delegationId": null,
+          "isUnknown": false,
+          "absenceStartDate": null,
+          "absenceEndDate": null,
+          "isAutomaton": false,
+          "isEnabled": true,
+          "isRemoved": false
+        },
+        "isInUserDirectory": true,
+        "uid": "63a97152b3fbbb449b5756a6e3273b0d",
+        "label": "Mansour Souker",
+        "type": 0,
+        "email": "AdminDEV@mail.local",
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": true,
+        "isRemoved": false
+      },
+      "assignedTo": {
+        "mainService": {
+          "initials": "",
+          "identificationPath": "",
+          "isOrganizationUnit": false,
+          "uid": "LEXICON_00000000",
+          "label": "Direction générale",
+          "type": 1,
+          "email": "test2@mail.local",
+          "isExternal": false,
+          "delegationId": null,
+          "isUnknown": false,
+          "absenceStartDate": null,
+          "absenceEndDate": null,
+          "isAutomaton": false,
+          "isEnabled": true,
+          "isRemoved": false
+        },
+        "isInUserDirectory": true,
+        "uid": "55eccf5c5f399d48aca7b59f4eadcc26",
+        "label": "Farhan Abdelkarim",
+        "type": 0,
+        "email": "test2@mail.local",
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": true,
+        "isRemoved": false
+      },
+      "notifyAssignee": true,
+      "alertDate": null,
+      "dueDate": null,
+      "description": null,
+      "actionDate": null,
+      "answerDate": null,
+      "answerState": null,
+      "answerComment": null,
+      "answerBy": {
+        "uid": null,
+        "label": null,
+        "type": -1,
+        "email": null,
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": false,
+        "isRemoved": false
+      },
+      "actionBy": {
+        "uid": null,
+        "label": null,
+        "type": -1,
+        "email": null,
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": false,
+        "isRemoved": false
+      },
+      "actionComment": null,
+      "metadatas": [],
+      "parentId": 0,
+      "closedDate": null,
+      "closedBy": {
+        "uid": null,
+        "label": null,
+        "type": -1,
+        "email": null,
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": false,
+        "isRemoved": false
+      },
+      "treatmentSubType": {
+        "id": "COURRIERS_SOUS_TYPES_TRAITEMENT_2",
+        "label": "Attribution",
+        "isSystem": true
+      },
+      "responsibility": null,
+      "subTasksIds": [],
+      "isValidationStep": true,
+      "delegations": [],
+      "canDeleteTask": false,
+      "horizontalPosition": 2,
+      "isDeactivated": false,
+      "isAllowedToDeactivateTask": true,
+      "isTaskTransfered": false,
+      "isTaskRefused": false
+    },
+    {
+      "id": 1,
+      "active": true,
+      "processType": 1,
+      "state": 0,
+      "requestDate": "2022-04-15T10:08:59",
+      "requestBy": {
+        "mainService": {
+          "initials": "",
+          "identificationPath": "",
+          "isOrganizationUnit": false,
+          "uid": "LEXICON_00000000",
+          "label": "Direction générale",
+          "type": 1,
+          "email": "test2@mail.local",
+          "isExternal": false,
+          "delegationId": null,
+          "isUnknown": false,
+          "absenceStartDate": null,
+          "absenceEndDate": null,
+          "isAutomaton": false,
+          "isEnabled": true,
+          "isRemoved": false
+        },
+        "isInUserDirectory": true,
+        "uid": "63a97152b3fbbb449b5756a6e3273b0d",
+        "label": "Mansour Souker",
+        "type": 0,
+        "email": "AdminDEV@mail.local",
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": true,
+        "isRemoved": false
+      },
+      "assignedTo": {
+        "mainService": {
+          "initials": "",
+          "identificationPath": "",
+          "isOrganizationUnit": false,
+          "uid": "LEXICON_00000000",
+          "label": "Direction générale",
+          "type": 1,
+          "email": "test2@mail.local",
+          "isExternal": false,
+          "delegationId": null,
+          "isUnknown": false,
+          "absenceStartDate": null,
+          "absenceEndDate": null,
+          "isAutomaton": false,
+          "isEnabled": true,
+          "isRemoved": false
+        },
+        "isInUserDirectory": true,
+        "uid": "4e854f12b9555f4bb8bf833487ccf20c",
+        "label": "Ali BenYalii",
+        "type": 0,
+        "email": "test1@mail.local",
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": true,
+        "isRemoved": false
+      },
+      "notifyAssignee": true,
+      "alertDate": null,
+      "dueDate": null,
+      "description": null,
+      "actionDate": null,
+      "answerDate": null,
+      "answerState": null,
+      "answerComment": null,
+      "answerBy": {
+        "uid": null,
+        "label": null,
+        "type": -1,
+        "email": null,
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": false,
+        "isRemoved": false
+      },
+      "actionBy": {
+        "uid": null,
+        "label": null,
+        "type": -1,
+        "email": null,
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": false,
+        "isRemoved": false
+      },
+      "actionComment": null,
+      "metadatas": [],
+      "parentId": 0,
+      "closedDate": null,
+      "closedBy": {
+        "uid": null,
+        "label": null,
+        "type": -1,
+        "email": null,
+        "isExternal": false,
+        "delegationId": null,
+        "isUnknown": false,
+        "absenceStartDate": null,
+        "absenceEndDate": null,
+        "isAutomaton": false,
+        "isEnabled": false,
+        "isRemoved": false
+      },
+      "treatmentSubType": {
+        "id": "COURRIERS_SOUS_TYPES_TRAITEMENT_2",
+        "label": "Attribution",
+        "isSystem": true
+      },
+      "responsibility": null,
+      "subTasksIds": [],
+      "isValidationStep": true,
+      "delegations": [],
+      "canDeleteTask": false,
+      "horizontalPosition": 1,
+      "isDeactivated": false,
+      "isAllowedToDeactivateTask": true,
+      "isTaskTransfered": false,
+      "isTaskRefused": false
+    }
+  ],
+
+  "stateTimeline": [
+      {
+        "eventType": 0,
+        "time": "2022-04-14T14:33:49+01:00",
+        "userName": "Mansour Souker",
+        "reasonLabel": null,
+        "comment": null
+      },
+      {
+        "eventType": 4,
+        "time": "2022-04-15T10:09:14+01:00",
+        "userName": "Mansour Souker",
+        "reasonLabel": null,
+        "comment": null
+      }
+    ],
+    "lockInfos": {
+      "isLocked": false,
+      "lockDate": "2022-04-16T14:23:19.8893504+01:00",
+      "lockedBy": null,
+      "isReserved": false,
+      "reservationReason": ""
+    },
+    "COURRIERS_1216" :{
+    "chrono": "A22-00711",
+    "description": null,
+    "reopeningComment": null,
+    "state": 3,
+    "validationState": 0,
+    "restrictionMode": 3,
+    "sender": [
+      {
+        "name": "Neoledge",
+        "actionType": 0,
+        "addressBook": null,
+        "organization": null,
+        "organizationAddresses": null,
+        "addresses": null,
+        "jobTitle": null,
+        "person": {
+          "id": "CONTACTS_PERSONNES_1",
+          "label": "Neoledge",
+          "description": null,
+          "children": [],
+          "isSystem": false
+        },
+        "address": null,
+        "temporaryContact": null,
+        "hasContactIndexCard": false,
+        "mobilePhoneNumber": null,
+        "standardPhoneNumber": null,
+        "faxNumber": null,
+        "contactType": 0,
+        "contactCategory": {
+          "organizationCategory": null,
+          "personCategory": {
+            "id": "PERS_DIVERS",
+            "label": "",
+            "description": null,
+            "children": [],
+            "isSystem": false
+          }
+        },
+        "contactVerification": null,
+        "entity": null
+      }
+    ]},
+    "registeredMailInformation": {
+      "isRegistered": false,
+      "isAcknowledged": false,
+      "acknowledgementDate": null,
+      "acknowledgementReference": null,
+      "acknowledgementInfo": null,
+      "transporter": null
+    },
+    "duePeriod": {
+      "dueDate": null,
+      "alertDate": null,
+      "requiredResponseId": null
+    },
+    "medium": {
+      "id": "SUPPORT_PAPIER",
+      "label": "Papier",
+      "description": "Lettre, rapport, feuille, etc.",
+      "children": [],
+      "isSystem": false
+    },
+    "type": {
+      "id": "TYPE_STANDARD",
+      "label": "Standard",
+      "description": "Le type du document est standard",
+      "children": [],
+      "isSystem": true
+    },
+    "metadata": [
+      {
+        "label": "Chrono",
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "Chrono",
+        "value": [
+          "A22-00711"
+        ]
+      },
+      {
+        "label": "Importance",
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "Importance",
+        "value": [
+          "Normal"
+        ]
+      },
+      {
+        "label": "Confidentialité",
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "Confidentiality",
+        "value": [
+          "Normal"
+        ]
+      },
+      {
+        "label": "Accusé de réception",
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "Ack",
+        "value": [
+          "False"
+        ]
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_TITLE",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_REFERENCE",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_TYPE",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_CONTACT",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_DATE",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_PRIORITY",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_CONFIDENTIALITY",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_MEDIUM",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_REPORTED",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_DESCRIPTION",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_COMMENTARY",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_REGISTERED",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "STD_DUEPERIOD",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "CLASSEMENT",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "GESTION",
+        "value": null
+      },
+      {
+        "label": null,
+        "type": null,
+        "groupRight": 0,
+        "isHidden": false,
+        "id": "MOTSCLES",
+        "value": null
+      }
+    ],
+    "rights": [
+      1,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "mainService": {
+      "initials": "",
+      "identificationPath": "",
+      "isOrganizationUnit": false,
+      "uid": "LEXICON_00000000",
+      "label": "Direction générale",
+      "type": 1,
+      "email": "test2@mail.local",
+      "isExternal": false,
+      "delegationId": null,
+      "isUnknown": false,
+      "absenceStartDate": null,
+      "absenceEndDate": null,
+      "isAutomaton": false,
+      "isEnabled": true,
+      "isRemoved": false
+    },
+    "distribution": {
+      "distributionDate": "2022-04-15T10:09:14",
+      "distributerName": "Mansour Souker"
+    },
+    "archiveState": {
+      "archiveDate": null,
+      "archivedBy": null
+    },
+    "data3":[
+      {
+        "id": "GRC_ACCUEIL",
+        "label": "Demande présentielle",
+        "description": null,
+        "children": [],
+        "isSystem": true
+      },
+      {
+        "id": "GRC_COLLECTE",
+        "label": "Demande collectée",
+        "description": null,
+        "children": [],
+        "isSystem": true
+      },
+      {
+        "id": "GRC_ENTRETIEN_TEL",
+        "label": "Entretien téléphonique",
+        "description": null,
+        "children": [],
+        "isSystem": true
+      },
+      {
+        "id": "GRC_REPONDEUR",
+        "label": "Message répondeur",
+        "description": null,
+        "children": [],
+        "isSystem": true
+      },
+      {
+        "id": "O311_GEOREPORT",
+        "label": "Demande Open311",
+        "description": null,
+        "children": [],
+        "isSystem": true
+      },
+      {
+        "id": "SUPPORT_ELEC_EXCH",
+        "label": "Echange électronique",
+        "description": null,
+        "children": [],
+        "isSystem": true
+      },
+      {
+        "id": "COURRIERS_SUPPORT_1",
+        "label": "Colis",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "COURRIERS_SUPPORT_2",
+        "label": "DVD, CD",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "COURRIERS_SUPPORT_3",
+        "label": "Maps",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "SUPPORT_APPLICATION",
+        "label": "Application",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "SUPPORT_COURRIEL",
+        "label": "E-mail",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "SUPPORT_FAX",
+        "label": "Fax",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "SUPPORT_FORM_WEB",
+        "label": "Formulaire Web",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "SUPPORT_PAPIER",
+        "label": "Papier",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      },
+      {
+        "id": "SUPPORT_SMS",
+        "label": "SMS",
+        "description": null,
+        "children": [],
+        "isSystem": false
+      }
+    ]
+
+
+
+}
